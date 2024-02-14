@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 2</title>
+  </head>
+  <body>
+    <h1 id="heading-1"></h1>
+    <h2 id="heading-2"></h2>
+    <script>
+      //Coding task 1
+      var firstName = "Moe", lastName = "Adam", age = 52;
+
+      //Coding task 2
+      var firstname = "Mike";
+      var lastname = "Douglas";
+      var fullname = firstname + " " + lastname;
+
+      alert(fullname);
+      
+      //Coding task 3
+      var total = 0;
+
+      function addMe(x) {
+      total += x;
+      }
+
+      addMe(31);
+      addMe(29);
+      addMe(37);
+
+      document.getElementById('heading-1').innerHTML = ("The total value is:", total);
+
+      //Coding task 4
+      function calculateCatAge(catAge) {
+      var catYears = catAge * 7;
+
+      document.getElementById('heading-2').innerHTML = ("Your cat is " + catYears + " years old in cat years!");
+      }
+
+      calculateCatAge(7); 
+      calculateCatAge(14); 
+      calculateCatAge(19); 
+
+    </script>
+  </body>
+</html>
